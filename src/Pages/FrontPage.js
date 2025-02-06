@@ -34,6 +34,8 @@ function FrontPage() {
         }
     }
     function noButtonClickFunction(){
+            audioRef.current.play()
+
         playNoAudio();
     }
 
